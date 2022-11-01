@@ -19,8 +19,6 @@ int isEdited(const std::string& firstString, const std::string& secondString)
                 continue;
             }
 
-            std::cout << "counter increased" << std::endl;
-
             counter++;
             ++shift;
         }
