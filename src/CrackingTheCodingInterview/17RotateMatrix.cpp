@@ -63,10 +63,7 @@ void rotateMatrix(std::vector<int>& data)
     for (int i = 0; i < sqrt_/2; i++)
     {
         rotateCorners(data, i);
-        printMatrix(data);
         rotateEdges(data, i);
-
-        printMatrix(data);
     }
 }
 
